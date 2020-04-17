@@ -1,9 +1,9 @@
-import { tailwind } from '@theme-ui/presets'
+import { swiss } from '@theme-ui/presets'
 
 export default {
-  ...tailwind,
+  ...swiss,
   styles: {
-    ...tailwind.styles,
+    ...swiss.styles,
   },
   colors: {
     text: '#000',
