@@ -3,7 +3,7 @@
 import { jsx } from 'theme-ui'
 import { Component } from 'react'
 import { Link } from 'gatsby'
-import UserLinks from '../UserLinks/UserLinks'
+// import UserLinks from '../UserLinks/UserLinks'
 
 // import './Footer.css'
 
@@ -23,7 +23,7 @@ class Footer extends Component {
           variant: 'styles.header',
         }}
       >
-        <UserLinks config={config} labeled />
+        {/* <UserLinks config={config} labeled /> */}
         <div
           sx={{
             display: 'flex',
