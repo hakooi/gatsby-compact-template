@@ -14,7 +14,7 @@ module.exports = {
       image_url: `${urljoin(
         config.siteUrl,
         config.pathPrefix
-      )}/logos/logo-512.png`,
+      )}/logos/hakooi-icon-square.png`,
       copyright: config.copyright,
     },
   },
@@ -23,6 +23,13 @@ module.exports = {
     'gatsby-plugin-lodash',
     // 'gatsby-theme-elements',
     'gatsby-plugin-theme-ui',
+    {
+      resolve: 'gatsby-theme-style-guide',
+      options: {
+        // sets path for generated page
+        basePath: '/design-system',
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -94,12 +101,12 @@ module.exports = {
         display: 'minimal-ui',
         icons: [
           {
-            src: '/logos/logo-192.png',
+            src: '/logos/android-chrome-192x192.png',
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: '/logos/logo-512.png',
+            src: '/logos/android-chrome-512x512.png',
             sizes: '512x512',
             type: 'image/png',
           },

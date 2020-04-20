@@ -59,8 +59,8 @@ class Footer extends Component {
           <Link to="/about" sx={{ variant: 'styles.navlink', p: 2 }}>
             About
           </Link>
-          <Link to="/products" sx={{ variant: 'styles.navlink', p: 2 }}>
-            Products
+          <Link to="/design-system" sx={{ variant: 'styles.navlink', p: 2 }}>
+            Design System
           </Link>
           <Link to="/community" sx={{ variant: 'styles.navlink', p: 2 }}>
             Community
