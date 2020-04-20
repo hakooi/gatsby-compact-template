@@ -20,7 +20,6 @@ class Footer extends Component {
         className="header"
         sx={{
           py: 4,
-          variant: 'styles.header',
         }}
       >
         {/* <UserLinks config={config} labeled /> */}
