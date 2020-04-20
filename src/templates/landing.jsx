@@ -1,3 +1,6 @@
+/** @jsx jsx */
+
+import { jsx, Container } from 'theme-ui'
 import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
@@ -11,13 +14,15 @@ class Landing extends React.Component {
     const postEdges = this.props.data.allMarkdownRemark.edges
     return (
       <Layout>
-        <div className="landing-container">
-          <div className="posts-container">
-            <Helmet title={config.siteTitle} />
-            <SEO />
-            <LandingPage postEdges={postEdges} />
+        <Container p={9} bg="mute">
+          <div className="landing-container">
+            <div className="posts-container">
+              <Helmet title={config.siteTitle} />
+              <SEO />
+              <LandingPage postEdges={postEdges} />
+            </div>
           </div>
-        </div>
+        </Container>
       </Layout>
     )
   }
