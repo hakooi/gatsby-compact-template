@@ -108,7 +108,6 @@ class Footer extends Component {
                 />
               </svg>
             </IconButton>
-            Shop
           </Link>
         </div>
       </header>

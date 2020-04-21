@@ -3,7 +3,7 @@
 import { jsx, Container } from 'theme-ui'
 import { Component } from 'react'
 import { Link } from 'gatsby'
-import UserLinks from '../UserLinks/UserLinks'
+// import UserLinks from '../UserLinks/UserLinks'
 import './Footer.css'
 
 class Footer extends Component {
@@ -23,7 +23,7 @@ class Footer extends Component {
         }}
       >
         <Container p={9} bg="red">
-          <UserLinks config={config} labeled />
+          {/* <UserLinks config={config} labeled /> */}
 
           <div
             sx={{
@@ -97,14 +97,14 @@ class Footer extends Component {
                 p: 3,
               }}
             >
-              <Link to="/privacy-policy" sx={{ color: 'inherit' }}>
+              <Link to="/#" sx={{ color: 'inherit' }}>
                 Privacy Policy
               </Link>
               <div sx={{ mx: 1 }} />
-              <Link to="/terms-of-use" sx={{ color: 'inherit' }}>
+              <Link to="/#" sx={{ color: 'inherit' }}>
                 Terms of Use
               </Link>
-              <div sx={{ mx: 1 }} />© 2019 Jane Doe
+              <div sx={{ mx: 1 }} />© Hakooi
             </div>
           </div>
         </Container>
