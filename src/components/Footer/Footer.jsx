@@ -38,7 +38,7 @@ class Footer extends Component {
             <Link to="/" sx={{ variant: 'styles.navlink', p: 2 }}>
               Home
             </Link>
-            <Link to="/work" sx={{ variant: 'styles.navlink', p: 2 }}>
+            <Link to="#" sx={{ variant: 'styles.navlink', p: 2 }}>
               Work
             </Link>
             <Link to="/blog" sx={{ variant: 'styles.navlink', p: 2 }}>
@@ -50,37 +50,37 @@ class Footer extends Component {
             <Link to="/design-system" sx={{ variant: 'styles.navlink', p: 2 }}>
               Design System
             </Link>
-            <Link to="/community" sx={{ variant: 'styles.navlink', p: 2 }}>
+            <Link to="#" sx={{ variant: 'styles.navlink', p: 2 }}>
               Community
             </Link>
-            <Link to="/support" sx={{ variant: 'styles.navlink', p: 2 }}>
+            <Link to="#" sx={{ variant: 'styles.navlink', p: 2 }}>
               Support
             </Link>
-            <Link to="/contact" sx={{ variant: 'styles.navlink', p: 2 }}>
+            <Link to="#" sx={{ variant: 'styles.navlink', p: 2 }}>
               Contact
             </Link>
-            <Link to="/support" sx={{ variant: 'styles.navlink', p: 2 }}>
+            <Link to="#" sx={{ variant: 'styles.navlink', p: 2 }}>
               Support
             </Link>
-            <Link to="/products" sx={{ variant: 'styles.navlink', p: 2 }}>
+            <Link to="#" sx={{ variant: 'styles.navlink', p: 2 }}>
               Products
             </Link>
-            <Link to="/contact" sx={{ variant: 'styles.navlink', p: 2 }}>
+            <Link to="#" sx={{ variant: 'styles.navlink', p: 2 }}>
               Contact
             </Link>
-            <Link to="/community" sx={{ variant: 'styles.navlink', p: 2 }}>
+            <Link to="#" sx={{ variant: 'styles.navlink', p: 2 }}>
               Community
             </Link>
-            <Link to="/products" sx={{ variant: 'styles.navlink', p: 2 }}>
+            <Link to="#" sx={{ variant: 'styles.navlink', p: 2 }}>
               Products
             </Link>
-            <Link to="/community" sx={{ variant: 'styles.navlink', p: 2 }}>
+            <Link to="#" sx={{ variant: 'styles.navlink', p: 2 }}>
               Community
             </Link>
-            <Link to="/support" sx={{ variant: 'styles.navlink', p: 2 }}>
+            <Link to="#" sx={{ variant: 'styles.navlink', p: 2 }}>
               Support
             </Link>
-            <Link to="/contact" sx={{ variant: 'styles.navlink', p: 2 }}>
+            <Link to="#" sx={{ variant: 'styles.navlink', p: 2 }}>
               Contact
             </Link>
           </div>
