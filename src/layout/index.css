@@ -18,6 +18,10 @@ body {
   min-width: 100vw;
 }
 
+a {
+  text-decoration: none;
+}
+
 .layout-container {
   min-height: 100vh;
   min-width: 100vw;

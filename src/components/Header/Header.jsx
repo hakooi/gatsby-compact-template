@@ -1,6 +1,6 @@
 /** @jsx jsx */
 
-import { jsx } from 'theme-ui'
+import { jsx, IconButton } from 'theme-ui'
 import { Component } from 'react'
 import { Link } from 'gatsby'
 // import UserLinks from '../UserLinks/UserLinks'
@@ -19,76 +19,96 @@ class Footer extends Component {
       <header
         className="header"
         sx={{
-          py: 4,
+          variant: 'styles.header',
         }}
       >
-        {/* <UserLinks config={config} labeled /> */}
         <div
           sx={{
+            maxWidth: 768,
+            mx: 'auto',
+            px: 3,
             display: 'flex',
-            justifyContent: 'center',
-            mb: 3,
-          }}
-        >
-          <Link to="/" title="Home">
-            <img
-              alt="UI Logo"
-              src="https://contrast.now.sh/cff/40f?size=48&fontSize=2&baseline=2&fontWeight=900&radius=32&text=UI"
-            />
-            <span
-              sx={{
-                position: 'absolute',
-                width: 1,
-                height: 1,
-                overflow: 'hidden',
-                top: -9999,
-              }}
-            >
-              Home
-            </span>
-          </Link>
-        </div>
-        <div
-          sx={{
-            display: 'flex',
-            justifyContent: 'center',
+            alignItems: 'baseline',
           }}
         >
           <Link
-            to="/work"
+            to="/"
             sx={{
               variant: 'styles.navlink',
-              p: 2,
+              fontSize: 5,
+              py: 2,
             }}
           >
-            Work
+            Pokooi
           </Link>
+          <div sx={{ mx: 'auto' }} />
           <Link
-            to="/blog"
+            to="/"
             sx={{
               variant: 'styles.navlink',
-              p: 2,
+              ml: 3,
+              py: 2,
             }}
           >
-            Blog
+            Home
           </Link>
           <Link
             to="/about"
             sx={{
               variant: 'styles.navlink',
-              p: 2,
+              ml: 3,
+              py: 2,
+            }}
+          >
+            Plans
+          </Link>
+          <Link
+            to="/about"
+            sx={{
+              variant: 'styles.navlink',
+              ml: 3,
+              py: 2,
             }}
           >
             About
           </Link>
           <Link
-            to="/contact"
+            to="/about"
             sx={{
               variant: 'styles.navlink',
-              p: 2,
+              ml: 3,
+              py: 2,
             }}
           >
-            Contact
+            Contact-us
+          </Link>
+          <Link
+            to="/about"
+            sx={{
+              variant: 'styles.navlink',
+              ml: 3,
+              py: 2,
+            }}
+          >
+            <IconButton aria-label="Shop">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                fill="currentcolor"
+              >
+                <circle
+                  r={11}
+                  cx={12}
+                  cy={12}
+                  fill="none"
+                  stroke="currentcolor"
+                  strokeWidth={2}
+                />
+              </svg>
+            </IconButton>
+            Shop
           </Link>
         </div>
       </header>

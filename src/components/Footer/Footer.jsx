@@ -24,20 +24,7 @@ class Footer extends Component {
       >
         <Container p={9} bg="red">
           <UserLinks config={config} labeled />
-          <div className="notice-container">
-            <h4>{copyright}</h4>
 
-            <Link to={url}>
-              <button>Subscribe</button>
-            </Link>
-            <h4>
-              Based on{' '}
-              <a href="https://github.com/Vagr9K/gatsby-advanced-starter">
-                Gatsby Advanced Starter
-              </a>
-              .
-            </h4>
-          </div>
           <div
             sx={{
               display: 'grid',
@@ -97,21 +84,28 @@ class Footer extends Component {
               Contact
             </Link>
           </div>
-          <div
-            sx={{
-              display: 'flex',
-              justifyContent: 'flex-end',
-              p: 3,
-            }}
-          >
-            <Link to="/privacy-policy" sx={{ color: 'inherit' }}>
-              Privacy Policy
+          <div className="notice-container">
+            <h4>{copyright}</h4>
+
+            <Link to={url}>
+              <button>Subscribe</button>
             </Link>
-            <div sx={{ mx: 1 }} />
-            <Link to="/terms-of-use" sx={{ color: 'inherit' }}>
-              Terms of Use
-            </Link>
-            <div sx={{ mx: 1 }} />© 2019 Jane Doe
+            <div
+              sx={{
+                display: 'flex',
+                justifyContent: 'flex-end',
+                p: 3,
+              }}
+            >
+              <Link to="/privacy-policy" sx={{ color: 'inherit' }}>
+                Privacy Policy
+              </Link>
+              <div sx={{ mx: 1 }} />
+              <Link to="/terms-of-use" sx={{ color: 'inherit' }}>
+                Terms of Use
+              </Link>
+              <div sx={{ mx: 1 }} />© 2019 Jane Doe
+            </div>
           </div>
         </Container>
       </footer>
