@@ -23,6 +23,7 @@ module.exports = {
     'gatsby-plugin-lodash',
     // 'gatsby-theme-elements',
     'gatsby-plugin-theme-ui',
+    'gatsby-plugin-postcss',
     {
       resolve: 'gatsby-theme-style-guide',
       options: {
