@@ -14,7 +14,7 @@ class Landing extends React.Component {
     const postEdges = this.props.data.allMarkdownRemark.edges
     return (
       <Layout>
-        <Container p={9} bg="mute">
+        <Container sx={{ width: '90%', p: 3 }}>
           <div className="landing-container">
             <div className="posts-container">
               <Helmet title={config.siteTitle} />

@@ -1,3 +1,6 @@
+/** @jsx jsx */
+
+import { jsx } from 'theme-ui'
 import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
@@ -29,7 +32,13 @@ export default class PostTemplate extends React.Component {
             <title>{`${post.title} | ${config.siteTitle}`}</title>
           </Helmet>
           <SEO postPath={slug} postNode={postNode} postSEO />
-          <div>
+          <div
+            sx={{
+              width: '90%',
+              mx: 'auto',
+              px: 3,
+            }}
+          >
             {/* <Header config={config} /> */}
             <h1>{post.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: postNode.html }} />

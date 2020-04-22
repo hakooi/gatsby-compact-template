@@ -22,7 +22,7 @@ class Footer extends Component {
           variant: 'styles.footer',
         }}
       >
-        <Container p={9}>
+        <Container sx={{ width: '90%', p: 3 }}>
           {/* <UserLinks config={config} labeled /> */}
 
           <div
@@ -31,8 +31,6 @@ class Footer extends Component {
               gridTemplateRows: 'repeat(4, 32px)',
               gridTemplateColumns: ['repeat(2, 1fr)', 'repeat(4, 1fr)'],
               gridAutoFlow: 'column',
-              px: 2,
-              py: 4,
             }}
           >
             <Link to="/" sx={{ p: 2 }}>

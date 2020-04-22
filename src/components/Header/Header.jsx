@@ -24,7 +24,7 @@ class Footer extends Component {
       >
         <div
           sx={{
-            maxWidth: 768,
+            width: '90%',
             mx: 'auto',
             px: 3,
             display: 'flex',

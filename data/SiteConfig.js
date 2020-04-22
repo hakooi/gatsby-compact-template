@@ -1,7 +1,7 @@
 const config = {
-  siteTitle: 'Hakooi Gatsby Starter', // Site title.
-  siteTitleShort: 'GA Starter', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: 'GatsbyJS Advanced Starter', // Alternative site title for SEO.
+  siteTitle: 'Hakooi Gatsby Compact', // Site title.
+  siteTitleShort: 'Compact Theme', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: 'GatsbyJS Compact Theme', // Alternative site title for SEO.
   siteLogo: 'static/logos/hakooi-icon-circle.png', // Logo used for SEO and manifest.
   siteUrl: 'https://compact-hakooi.netlify.app', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
