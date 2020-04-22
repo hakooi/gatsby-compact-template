@@ -20,9 +20,11 @@ class Footer extends Component {
         sx={{
           fontSize: 1,
           variant: 'styles.footer',
+          backgroundColor: 'secondary',
+          py: 24,
         }}
       >
-        <Container sx={{ width: '90%', p: 3 }}>
+        <Container sx={{ width: '90%', p: 4 }}>
           {/* <UserLinks config={config} labeled /> */}
 
           <div

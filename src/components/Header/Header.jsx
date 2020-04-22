@@ -1,13 +1,13 @@
 /** @jsx jsx */
 
-import { jsx, IconButton } from 'theme-ui'
+import { jsx, IconButton, NavLink } from 'theme-ui'
 import { Component } from 'react'
 import { Link } from 'gatsby'
 // import UserLinks from '../UserLinks/UserLinks'
 
-// import './Footer.css'
+// import './Header.css'
 
-class Footer extends Component {
+class Header extends Component {
   render() {
     const { config } = this.props
     // const url = config.siteRss
@@ -20,13 +20,14 @@ class Footer extends Component {
         className="header"
         sx={{
           variant: 'styles.header',
+          boxShadow: 'lg',
         }}
       >
         <div
           sx={{
-            width: '90%',
+            width: ['80%', '90%'],
             mx: 'auto',
-            px: 3,
+            px: 4,
             display: 'flex',
             alignItems: 'baseline',
           }}
@@ -42,16 +43,19 @@ class Footer extends Component {
             Pokooi
           </Link>
           <div sx={{ mx: 'auto' }} />
-          <Link
-            to="/"
-            sx={{
-              variant: 'styles.navlink',
-              ml: 3,
-              py: 2,
-            }}
-          >
-            Home
-          </Link>
+          <NavLink>
+            <Link
+              to="/"
+              sx={{
+                variant: 'styles.navlink',
+                ml: 3,
+                py: 2,
+              }}
+            >
+              Home
+            </Link>
+          </NavLink>
+
           <Link
             to="/about"
             sx={{
@@ -115,4 +119,4 @@ class Footer extends Component {
   }
 }
 
-export default Footer
+export default Header

@@ -1,3 +1,6 @@
+/** @jsx jsx */
+
+import { jsx } from 'theme-ui'
 import React from 'react'
 import Helmet from 'react-helmet'
 import config from '../../data/SiteConfig'
@@ -10,14 +13,16 @@ export default class MainLayout extends React.Component {
   render() {
     const { children } = this.props
     return (
-      <div className="layout-container">
-        <Helmet>
-          {/* <link rel="icon" href={favicon} /> */}
-          <meta name="description" content={config.siteDescription} />
-          <html lang="en" />
-        </Helmet>
+      <div>
         <Header config={config} />
-        {children}
+        <div className="layout-container">
+          <Helmet>
+            {/* <link rel="icon" href={favicon} /> */}
+            <meta name="description" content={config.siteDescription} />
+            <html lang="en" />
+          </Helmet>
+          {children}
+        </div>
         <Footer config={config} />
       </div>
     )
