@@ -31,7 +31,7 @@ module.exports = {
         basePath: '/design-system',
       },
     },
-    {
+    /* {
       resolve: '@stackbit/gatsby-plugin-menus',
       options: {
         // static definition of menu items (optional)
@@ -58,7 +58,7 @@ module.exports = {
       // menuLoader: customLoaderFunction,
       // the property to use for injecting to the page context (optional, see "Advanced usage")
       pageContextProperty: 'menus',
-    },
+    }, */
     {
       resolve: 'gatsby-source-filesystem',
       options: {
