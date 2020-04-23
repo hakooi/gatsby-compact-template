@@ -3,6 +3,9 @@
 import { jsx, IconButton, NavLink } from 'theme-ui'
 import { Component } from 'react'
 import { Link } from 'gatsby'
+import { CloudLightning } from 'react-feather'
+import Nav from '../Nav/Nav'
+
 // import UserLinks from '../UserLinks/UserLinks'
 
 // import './Header.css'
@@ -40,10 +43,10 @@ class Header extends Component {
               py: 2,
             }}
           >
-            Pokooi
+            <CloudLightning />
           </Link>
           <div sx={{ mx: 'auto' }} />
-          <NavLink>
+          <NavLink id="myId">
             <Link
               to="/"
               sx={{
@@ -55,64 +58,7 @@ class Header extends Component {
               Home
             </Link>
           </NavLink>
-
-          <Link
-            to="/about"
-            sx={{
-              variant: 'styles.navlink',
-              ml: 3,
-              py: 2,
-            }}
-          >
-            Plans
-          </Link>
-          <Link
-            to="/about"
-            sx={{
-              variant: 'styles.navlink',
-              ml: 3,
-              py: 2,
-            }}
-          >
-            About
-          </Link>
-          <Link
-            to="/about"
-            sx={{
-              variant: 'styles.navlink',
-              ml: 3,
-              py: 2,
-            }}
-          >
-            Contact-us
-          </Link>
-          <Link
-            to="/about"
-            sx={{
-              variant: 'styles.navlink',
-              ml: 3,
-              py: 2,
-            }}
-          >
-            <IconButton aria-label="Shop">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                width="24"
-                height="24"
-                fill="currentcolor"
-              >
-                <circle
-                  r={11}
-                  cx={12}
-                  cy={12}
-                  fill="none"
-                  stroke="currentcolor"
-                  strokeWidth={2}
-                />
-              </svg>
-            </IconButton>
-          </Link>
+          <Nav />
         </div>
       </header>
     )

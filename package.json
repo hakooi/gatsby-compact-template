@@ -6,6 +6,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
+    "@stackbit/gatsby-plugin-menus": "^0.0.4",
     "@theme-ui/presets": "^0.3.0",
     "gatsby": "^2.20.12",
     "gatsby-cli": "^2.11.15",
@@ -45,6 +46,7 @@
     "react": "^16.13.1",
     "react-disqus-comments": "^1.4.0",
     "react-dom": "^16.13.1",
+    "react-feather": "^2.0.4",
     "react-helmet": "^5.2.1",
     "react-share": "^4.1.0",
     "react-twitter-widgets": "^1.7.1",
