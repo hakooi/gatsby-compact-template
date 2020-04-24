@@ -48,16 +48,6 @@ class Header extends Component {
             <CloudLightning />
           </Link>
           <div sx={{ mx: 'auto' }} />
-          <Link
-            to="/"
-            sx={{
-              variant: 'styles.navlink',
-              ml: 3,
-              py: 2,
-            }}
-          >
-            Home
-          </Link>
           <Nav />
         </div>
       </header>

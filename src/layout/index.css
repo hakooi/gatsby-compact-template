@@ -55,4 +55,5 @@ a {
   display: flex;
   flex-direction: column;
   padding: 20px;
+  @apply text-xl leading-loose
 }
