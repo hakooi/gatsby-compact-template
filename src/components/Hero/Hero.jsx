@@ -9,7 +9,7 @@ import Img from 'gatsby-image'
 export default class Hero extends Component {
   render() {
     return (
-      <div>
+      <section>
         <main className="hero flex flex-col-reverse flex-wrap sm:flex-row justify-between items-center py-12">
           <div className="sm:w-2/5 flex flex-col items-center sm:items-start text-center sm:text-left">
             <h1 className="uppercase text-2xl text-blue-900 leading-none tracking-wide mb-8">
@@ -52,7 +52,7 @@ export default class Hero extends Component {
             </a>
           </div>
         </main>
-      </div>
+      </section>
     )
   }
 }
