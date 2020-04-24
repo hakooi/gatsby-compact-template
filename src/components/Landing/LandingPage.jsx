@@ -1,4 +1,5 @@
 import React from 'react'
+import Hero from '../Hero/Hero'
 import { Link } from 'gatsby'
 
 class PostListing extends React.Component {
@@ -22,12 +23,15 @@ class PostListing extends React.Component {
     const postList = this.getPostList()
     return (
       <div>
-        {/* Your post list here. */
-        postList.map((post) => (
-          <Link to={post.path} key={post.title}>
-            <h1>{post.title}</h1>
-          </Link>
-        ))}
+        <Hero />
+        {
+          /* Your post list here. */
+          postList.map((post) => (
+            <Link to={post.path} key={post.title}>
+              <h1>{post.title}</h1>
+            </Link>
+          ))
+        }
       </div>
     )
   }

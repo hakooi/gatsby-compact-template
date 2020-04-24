@@ -8,6 +8,7 @@ import Layout from '../layout'
 import LandingPage from '../components/Landing/LandingPage'
 import SEO from '../components/SEO/SEO'
 import config from '../../data/SiteConfig'
+import './landing.css'
 
 class Landing extends React.Component {
   render() {

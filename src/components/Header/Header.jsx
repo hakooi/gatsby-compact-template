@@ -5,6 +5,8 @@ import { Component } from 'react'
 import { Link } from 'gatsby'
 import { CloudLightning } from 'react-feather'
 import Nav from '../Nav/Nav'
+import './Header.css'
+// import Illustration from '../../../static/logos/digital-marketing.svg'
 
 // import UserLinks from '../UserLinks/UserLinks'
 
@@ -46,18 +48,16 @@ class Header extends Component {
             <CloudLightning />
           </Link>
           <div sx={{ mx: 'auto' }} />
-          <NavLink id="myId">
-            <Link
-              to="/"
-              sx={{
-                variant: 'styles.navlink',
-                ml: 3,
-                py: 2,
-              }}
-            >
-              Home
-            </Link>
-          </NavLink>
+          <Link
+            to="/"
+            sx={{
+              variant: 'styles.navlink',
+              ml: 3,
+              py: 2,
+            }}
+          >
+            Home
+          </Link>
           <Nav />
         </div>
       </header>
