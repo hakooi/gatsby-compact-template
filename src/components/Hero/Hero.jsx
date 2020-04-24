@@ -4,7 +4,9 @@ import { jsx } from 'theme-ui'
 import { Component } from 'react'
 // import { Link } from 'gatsby'
 import './Hero.css'
-import Img from 'gatsby-image'
+import illustration from '../../../static/logos/illustration.svg'
+import fluid from '../../../static/logos/svg/fluid.svg'
+import oval from '../../../static/logos/svg/Oval-illustration.svg'
 
 export default class Hero extends Component {
   render() {
@@ -29,10 +31,15 @@ export default class Hero extends Component {
             </a>
           </div>
           <div className="mb-16 sm:mb-0 mt-8 sm:mt-0 sm:w-3/5 sm:pl-12">
-            <Img fluid="static/logos/svg/fluid.svg" alt="fluid image" />
+            {/* <Img src={`/static/logos/svg/fluid.svg`} alt="fluid image" /> */}
+            <img
+              className="fluid-gradient absolute right-0 z-0 bottom-0"
+              src={fluid}
+              alt="fluid gradient"
+            />
           </div>
           <div className="mb-16 sm:mb-0 mt-8 sm:mt-0 sm:w-3/5 sm:pl-12">
-            <Img fluid="static/logos/svg/fluid.svg" alt="fluid image" />
+            <img className="z-10" src={oval} alt="fluid gradient " />
           </div>
           <div className="sm:w-2/5 flex flex-col items-center sm:items-start text-center sm:text-left">
             <h1 className="uppercase text-2xl text-blue-900 leading-none tracking-wide mb-8">
