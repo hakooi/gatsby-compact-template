@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="693px" height="693px" viewBox="0 0 693 693" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Rectangle Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0.106430761%" x2="43.6025626%" y2="99.8935692%" id="linearGradient-1">
+            <stop stop-color="#12B380" offset="0%"></stop>
+            <stop stop-color="#008799" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Pokooi" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.900000036">
+        <g id="Pokooi-prototype" transform="translate(-747.000000, -289.000000)" fill="url(#linearGradient-1)">
+            <g id="Hero-01">
+                <path d="M747.262321,362.792833 C884.191737,307.762455 983.079972,283.826763 1043.92703,290.985759 C1135.19761,301.724252 1353.5371,334.47455 1410.71248,555.963976 C1467.88786,777.453403 1440.26232,864 1337.35539,897.806105 C1180.26232,921 1067.6602,844.203641 951.151882,864.430986 C873.479669,877.915882 805.516482,917.022082 747.262321,981.749586 L747.262321,362.792833 Z" id="Rectangle-Copy" transform="translate(1093.631161, 635.749586) scale(-1, 1) translate(-1093.631161, -635.749586) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
