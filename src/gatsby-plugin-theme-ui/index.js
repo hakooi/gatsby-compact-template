@@ -1,6 +1,7 @@
 import { tailwind } from '@theme-ui/presets'
 
 export default {
+  useCustomProperties: false,
   ...tailwind,
   styles: {
     ...tailwind.styles,
@@ -22,5 +23,15 @@ export default {
   },
   fonts: {
     montserrat: 'Montserrat',
+  },
+  links: {
+    primary: {
+      fontWeight: 'semi',
+      color: 'gray',
+      transition: '.3s ease-in',
+      '&:hover': {
+        color: 'primary',
+      },
+    },
   },
 }

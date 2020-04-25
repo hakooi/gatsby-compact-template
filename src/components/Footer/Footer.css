@@ -1,5 +1,3 @@
-@tailwind utilities;
-
 .footer {
   justify-content: center;
   align-content: center;
@@ -8,7 +6,8 @@
 }
 
 .footer__link {
-  @apply text-xl
+  transition: .3s ease;
+  @apply text-xl transition-colors
 }
 
 
