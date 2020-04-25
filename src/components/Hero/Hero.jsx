@@ -4,7 +4,7 @@ import { jsx } from 'theme-ui'
 import { Component } from 'react'
 // import { Link } from 'gatsby'
 import './Hero.css'
-import illustration from '../../../static/logos/illustration.svg'
+// import illustration from '../../../static/logos/illustration.svg'
 import fluid from '../../../static/logos/svg/fluid.svg'
 import oval from '../../../static/logos/svg/Oval-illustration.svg'
 

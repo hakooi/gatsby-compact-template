@@ -156,10 +156,10 @@ class Footer extends Component {
               </div>
             </div>
           </div>
-          <div className="notice-container">
+          <div className="notice-container sm:px-8">
             <h4>{copyright}</h4>
             <Link to={url}>
-              <button>Subscribe</button>
+              <button type="button">Subscribe</button>
             </Link>
             <div
               sx={{
@@ -175,7 +175,8 @@ class Footer extends Component {
               <Link to="/" sx={{ color: 'inherit' }}>
                 Terms of Use
               </Link>
-              <div sx={{ mx: 1 }} />© Hakooi
+              <div sx={{ mx: 1 }} />
+              Hakooi
             </div>
           </div>
         </Container>

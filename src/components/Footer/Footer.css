@@ -7,7 +7,7 @@
 
 .footer__link {
   transition: .3s ease;
-  @apply text-xl transition-colors
+  @apply text-xl
 }
 
 
