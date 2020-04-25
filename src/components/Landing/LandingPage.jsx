@@ -1,6 +1,7 @@
 import React from 'react'
-import Hero from '../Hero/Hero'
 import { Link } from 'gatsby'
+import Hero from '../Hero/Hero'
+import Testimonial from '../Testimonials/testimonial'
 
 class PostListing extends React.Component {
   getPostList() {
@@ -24,6 +25,7 @@ class PostListing extends React.Component {
     return (
       <div>
         <Hero />
+        <Testimonial />
         {
           /* Your post list here. */
           postList.map((post) => (

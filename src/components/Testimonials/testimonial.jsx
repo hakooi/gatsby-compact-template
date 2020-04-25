@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 /** @jsx jsx */
 
 import { jsx, Container } from 'theme-ui'
@@ -13,89 +14,112 @@ class Testimonials extends Component {
 
     return (
       <Container sx={{ width: '90%' }}>
-        <div className="flex flex-col items-center m-8">
-          <div className="w-full bg-hakooi rounded overflow-x-hidden flex snap-x h-16">
-            <div
-              className="snap-start w-full h-full flex items-center justify-center text-white text-4xl font-bold flex-shrink-0 bg-blue-600"
-              id="slide-1"
-            >
-              Slide 1
+        <div className="carousel relative shadow-2xl bg-white">
+          <div className="carousel-inner relative overflow-hidden w-full">
+            <input
+              className="carousel-open"
+              type="radio"
+              id="carousel-1"
+              name="carousel"
+              aria-hidden="true"
+              hidden=""
+              checked="checked"
+            />
+            <div className="carousel-item absolute opacity-0 h-56">
+              <div className="block h-full w-full bg-indigo-500 text-white text-5xl text-center">
+                Slide 1
+              </div>
             </div>
-            <div
-              className="snap-start w-full h-full flex items-center justify-center text-white text-4xl font-bold flex-shrink-0 bg-green-600"
-              id="slide-2"
+            <label
+              htmlFor="carousel-3"
+              className="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"
             >
-              Slide 2
-            </div>
-            <div
-              className="snap-start w-full h-full flex items-center justify-center text-white text-4xl font-bold flex-shrink-0 bg-red-600"
-              id="slide-3"
+              ‹
+            </label>
+            <label
+              htmlFor="carousel-2"
+              className="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"
             >
-              Slide 3
-            </div>
-            <div
-              className="snap-start w-full h-full flex items-center justify-center text-white text-4xl font-bold flex-shrink-0 bg-orange-600"
-              id="slide-4"
-            >
-              Slide 4
-            </div>
-            <div
-              className="snap-start w-full h-full flex items-center justify-center text-white text-4xl font-bold flex-shrink-0 bg-purple-600"
-              id="slide-5"
-            >
-              Slide 5
-            </div>
-            <div
-              className="snap-start w-full h-full flex items-center justify-center text-white text-4xl font-bold flex-shrink-0 bg-black relative"
-              id="slide-6"
-            >
-              <img
-                src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=448&q=80"
-                className="h-full w-full object-cover absolute inset-0 z-10 opacity-25"
-              />
-              <h1 className="z-20 text-center">
-                Any kind of content here, images too!
-              </h1>
-            </div>
-          </div>
+              ›
+            </label>
 
-          <div className="flex mt-8">
-            <a
-              className="w-8 mr-1 h-8 text-gray-700 rounded-full bg-white flex justify-center items-center"
-              href="#slide-1"
+            <input
+              className="carousel-open"
+              type="radio"
+              id="carousel-2"
+              name="carousel"
+              aria-hidden="true"
+              hidden=""
+            />
+            <div className="carousel-item absolute opacity-0 h-56">
+              <div className="block h-full w-full bg-orange-500 text-white text-5xl text-center">
+                Slide 2
+              </div>
+            </div>
+            <label
+              htmlFor="carousel-1"
+              className="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"
             >
-              1
-            </a>
-            <a
-              className="w-8 mr-1 h-8 text-gray-700 rounded-full bg-white flex justify-center items-center"
-              href="#slide-2"
+              ‹
+            </label>
+            <label
+              htmlFor="carousel-3"
+              className="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"
             >
-              2
-            </a>
-            <a
-              className="w-8 mr-1 h-8 text-gray-700 rounded-full bg-white flex justify-center items-center"
-              href="#slide-3"
+              ›
+            </label>
+            <input
+              className="carousel-open"
+              type="radio"
+              id="carousel-3"
+              name="carousel"
+              aria-hidden="true"
+              hidden=""
+            />
+            <div className="carousel-item absolute opacity-0 h-56">
+              <div className="block h-full w-full bg-green-500 text-white text-5xl text-center">
+                Slide 3
+              </div>
+            </div>
+            <label
+              htmlFor="carousel-2"
+              className="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"
             >
-              3
-            </a>
-            <a
-              className="w-8 mr-1 h-8 text-gray-700 rounded-full bg-white flex justify-center items-center"
-              href="#slide-4"
+              ‹
+            </label>
+            <label
+              htmlFor="carousel-1"
+              className="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"
             >
-              4
-            </a>
-            <a
-              className="w-8 h-8 text-gray-700 rounded-full bg-white flex justify-center items-center"
-              href="#slide-5"
-            >
-              5
-            </a>
-            <a
-              className="w-8 h-8 text-gray-700 rounded-full bg-white flex justify-center items-center"
-              href="#slide-6"
-            >
-              6
-            </a>
+              ›
+            </label>
+
+            <ol className="carousel-indicators">
+              <li className="inline-block mr-3">
+                <label
+                  htmlFor="carousel-1"
+                  className="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700"
+                >
+                  •
+                </label>
+              </li>
+              <li className="inline-block mr-3">
+                <label
+                  htmlFor="carousel-2"
+                  className="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700"
+                >
+                  •
+                </label>
+              </li>
+              <li className="inline-block mr-3">
+                <label
+                  htmlFor="carousel-3"
+                  className="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700"
+                >
+                  •
+                </label>
+              </li>
+            </ol>
           </div>
         </div>
       </Container>

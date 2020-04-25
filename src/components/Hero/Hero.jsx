@@ -29,7 +29,7 @@ export default class Hero extends Component {
               Stream your music with the way you never feel it before
             </p>
             <a
-              href="#"
+              href="/"
               className="bg-purple-300 hover:bg-purple-400 py-3 px-6 uppercase text-lg font-bold text-white rounded-full"
             >
               Learn more
@@ -52,7 +52,7 @@ export default class Hero extends Component {
                 and greatly improve the way you feel when streaming music
               </p>
               <a
-                href="#"
+                href="/"
                 className="bg-purple-300 hover:bg-purple-400 py-3 px-6 uppercase text-lg font-bold text-white rounded-full"
               >
                 Learn more
