@@ -1,9 +1,17 @@
+@tailwind utilities;
+
 .footer {
   justify-content: center;
   align-content: center;
   /* padding: 10px 5px 5px; */
   @apply mt-4
 }
+
+.footer__link {
+  @apply text-xl
+}
+
+
 
 .notice-container {
   display: flex;

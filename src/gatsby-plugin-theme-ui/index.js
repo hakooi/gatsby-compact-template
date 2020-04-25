@@ -11,7 +11,7 @@ export default {
     secondary: '#008799',
     black: '#3d3d3d',
     gray: '#989898',
-    'light gray': '#f6f6f6',
+    'light-gray': '#f6f6f6',
     white: '#ffffff',
     '2px': '#3d3d3d',
     '4px': '#d8d8d8',

@@ -40,18 +40,16 @@ export default class Hero extends Component {
             {/* <Img src={`/static/logos/svg/fluid.svg`} alt="fluid image" /> */}
           </div>
           <div className="flex flex-row my-56">
-            <div className="mb-16 sm:mb-0 mt-8 sm:mt-0 sm:w-3/5 sm:pl-12">
+            <div className="mb-16 sm:mb-0 mt-8 sm:mt-0 sm:w-1/2  sm:pl-12">
               <img className="z-10" src={oval} alt="fluid gradient " />
             </div>
             <div className="sm:w-2/5 flex flex-col items-center sm:items-start text-center sm:text-left">
-              <h1 className="uppercase text-2xl text-blue-900 leading-none tracking-wide mb-8">
-                Pokooi
-              </h1>
               <h2 className="uppercase text-4xl text-orange-500 font-bold text-secondary leading-relaxed tracking-widest mb-6">
-                A New way to feel your Music
+                Music stream on steroid
               </h2>
               <p className="text-gray-600 leading-relaxed mb-12">
-                Stream your music with the way you never feel it before
+                Pokooi give enhanced ability to your music streaming activities
+                and greatly improve the way you feel when streaming music
               </p>
               <a
                 href="#"
