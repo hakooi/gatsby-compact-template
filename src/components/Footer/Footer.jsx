@@ -5,6 +5,7 @@ import { Component } from 'react'
 import { Link } from 'gatsby'
 // import UserLinks from '../UserLinks/UserLinks'
 import './Footer.css'
+import pokooi from '../../../static/logos/svg/pokooi.svg'
 
 class Footer extends Component {
   render() {
@@ -24,11 +25,14 @@ class Footer extends Component {
           py: 24,
         }}
       >
-        <div className="container mx-auto px-6">
+        <Container sx={{ width: '90%' }}>
           <div className="sm:flex sm:mt-8">
             <div className="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
               <div className="flex flex-col">
-                <span className="font-bold text-gray-700 uppercase mb-2">
+                <img src={pokooi} alt="pokooi" />
+              </div>
+              <div className="flex flex-col">
+                <span className="font-bold text-gray-700 uppercase mb-6">
                   General
                 </span>
                 <span className="my-2">
@@ -53,136 +57,107 @@ class Footer extends Component {
                   <Link
                     className="footer__link"
                     to="/"
-                    sx={{ variant: 'styles.a', p: 2 }}
+                    sx={{ variant: 'links.primary' }}
                   >
                     Features
                   </Link>
                 </span>
+                <span className="my-2">
+                  <Link
+                    className="footer__link"
+                    to="/about"
+                    sx={{ variant: 'links.primary' }}
+                  >
+                    FAQ
+                  </Link>
+                </span>
               </div>
               <div className="flex flex-col">
-                <span className="font-bold text-gray-700 uppercase mt-4 md:mt-0 mb-2">
+                <span className="font-bold text-gray-700 uppercase mb-6">
                   Integrate
                 </span>
                 <span className="my-2">
-                  <a
-                    href="/"
-                    className="text-blue-700 text-md hover:text-blue-500"
+                  <Link
+                    className="footer__link text-orange-100"
+                    to="/"
+                    sx={{ variant: 'links.primary' }}
                   >
-                    link 1
-                  </a>
+                    Plans
+                  </Link>
                 </span>
                 <span className="my-2">
-                  <a
-                    href="/"
-                    className="text-blue-700  text-md hover:text-blue-500"
+                  <Link
+                    className="footer__link"
+                    to="/"
+                    sx={{ variant: 'links.primary' }}
                   >
-                    link 1
-                  </a>
+                    About Us
+                  </Link>
                 </span>
                 <span className="my-2">
-                  <a
-                    href="/"
-                    className="text-blue-700 text-md hover:text-blue-500"
+                  <Link
+                    className="footer__link"
+                    to="/"
+                    sx={{ variant: 'links.primary' }}
                   >
-                    link 1
-                  </a>
+                    Features
+                  </Link>
+                </span>
+                <span className="my-2">
+                  <Link
+                    className="footer__link"
+                    to="/about"
+                    sx={{ variant: 'links.primary' }}
+                  >
+                    FAQ
+                  </Link>
                 </span>
               </div>
               <div className="flex flex-col">
-                <span className="font-bold text-gray-700 uppercase mt-4 md:mt-0 mb-2">
+                <span className="font-bold text-gray-700 uppercase mb-6">
                   Support
                 </span>
                 <span className="my-2">
-                  <a
-                    href="/"
-                    className="text-blue-700  text-md hover:text-blue-500"
+                  <Link
+                    className="footer__link text-orange-100"
+                    to="/"
+                    sx={{ variant: 'links.primary' }}
                   >
-                    link 1
-                  </a>
+                    Plans
+                  </Link>
                 </span>
                 <span className="my-2">
-                  <a
-                    href="/"
-                    className="text-blue-700  text-md hover:text-blue-500"
+                  <Link
+                    className="footer__link"
+                    to="/"
+                    sx={{ variant: 'links.primary' }}
                   >
-                    link 1
-                  </a>
+                    About Us
+                  </Link>
                 </span>
                 <span className="my-2">
-                  <a
-                    href="/"
-                    className="text-blue-700  text-md hover:text-blue-500"
+                  <Link
+                    className="footer__link"
+                    to="/"
+                    sx={{ variant: 'links.primary' }}
                   >
-                    link 1
-                  </a>
+                    Features
+                  </Link>
+                </span>
+                <span className="my-2">
+                  <Link
+                    className="footer__link"
+                    to="/about"
+                    sx={{ variant: 'links.primary' }}
+                  >
+                    FAQ
+                  </Link>
                 </span>
               </div>
             </div>
           </div>
-        </div>
-        <Container sx={{ width: '90%', p: 4 }}>
-          {/* <UserLinks config={config} labeled /> */}
-
-          <div
-            sx={{
-              display: 'grid',
-              gridTemplateRows: 'repeat(4, 32px)',
-              gridTemplateColumns: ['repeat(2, 1fr)', 'repeat(4, 1fr)'],
-              gridAutoFlow: 'column',
-            }}
-          >
-            <Link to="/" sx={{ p: 2 }}>
-              Home
-            </Link>
-            <Link to="#" sx={{ variant: 'styles.a', p: 2 }}>
-              Work
-            </Link>
-            <Link to="/blog" sx={{ variant: 'styles.a', p: 2 }}>
-              Blog
-            </Link>
-            <Link to="/about" sx={{ variant: 'styles.a', p: 2 }}>
-              About
-            </Link>
-            <Link to="/design-system" sx={{ variant: 'styles.a', p: 2 }}>
-              Design System
-            </Link>
-            <Link to="#" sx={{ variant: 'styles.a', p: 2 }}>
-              Community
-            </Link>
-            <Link to="#" sx={{ variant: 'styles.a', p: 2 }}>
-              Support
-            </Link>
-            <Link to="#" sx={{ variant: 'styles.a', p: 2 }}>
-              Contact
-            </Link>
-            <Link to="#" sx={{ variant: 'styles.a', p: 2 }}>
-              Support
-            </Link>
-            <Link to="#" sx={{ variant: 'styles.a', p: 2 }}>
-              Products
-            </Link>
-            <Link to="#" sx={{ variant: 'styles.a', p: 2 }}>
-              Contact
-            </Link>
-            <Link to="#" sx={{ variant: 'styles.a', p: 2 }}>
-              Community
-            </Link>
-            <Link to="#" sx={{ variant: 'styles.a', p: 2 }}>
-              Products
-            </Link>
-            <Link to="#" sx={{ variant: 'styles.a', p: 2 }}>
-              Community
-            </Link>
-            <Link to="#" sx={{ variant: 'styles.a', p: 2 }}>
-              Support
-            </Link>
-            <Link to="#" sx={{ variant: 'styles.a', p: 2 }}>
-              Contact
-            </Link>
-          </div>
           <div className="notice-container">
             <h4>{copyright}</h4>
-
             <Link to={url}>
               <button>Subscribe</button>
             </Link>
@@ -193,11 +168,11 @@ class Footer extends Component {
                 p: 3,
               }}
             >
-              <Link to="/#" sx={{ color: 'inherit' }}>
+              <Link to="/" sx={{ color: 'inherit' }}>
                 Privacy Policy
               </Link>
               <div sx={{ mx: 1 }} />
-              <Link to="/#" sx={{ color: 'inherit' }}>
+              <Link to="/" sx={{ color: 'inherit' }}>
                 Terms of Use
               </Link>
               <div sx={{ mx: 1 }} />© Hakooi
