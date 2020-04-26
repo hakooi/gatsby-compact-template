@@ -24,6 +24,14 @@ export default {
   fonts: {
     montserrat: 'Montserrat',
   },
+  carousel: {
+    primary: {
+      backgroundColor: 'primary',
+      '&:hover': {
+        backgroundColor: 'accent',
+      },
+    },
+  },
   links: {
     primary: {
       fontWeight: 'semi',

@@ -39,7 +39,7 @@ export default class Hero extends Component {
           <div className="mb-16 sm:mb-0 mt-8 sm:mt-0 sm:w-3/5 sm:pl-12 ">
             {/* <Img src={`/static/logos/svg/fluid.svg`} alt="fluid image" /> */}
           </div>
-          <div className="flex flex-row my-56">
+          <div className="flex flex-row mt-56">
             <div className="mb-16 sm:mb-0 mt-8 sm:mt-0 sm:w-1/2 p-6 sm:pl-12">
               <img className="z-10" src={oval} alt="fluid gradient " />
             </div>

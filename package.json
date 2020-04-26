@@ -4,6 +4,7 @@
   "version": "1.1.0",
   "author": "Ruben Harutyunyan <vagr9k@gmail.com>",
   "dependencies": {
+    "@brainhubeu/react-carousel": "^1.13.40",
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
     "@theme-ui/presets": "^0.3.0",
