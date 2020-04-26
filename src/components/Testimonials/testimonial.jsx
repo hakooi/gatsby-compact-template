@@ -20,8 +20,10 @@ class Testimonials extends Component {
       <Container sx={{ width: '90%' }}>
         <h3 className="text-4xl text-center bold ">Testimonials</h3>
         <Carousel
-          slidesPerPage={1}
-          arrows
+          slidesPerPage={2}
+          autoPlay={2000}
+          animationSpeed={1000}
+          infinite
           breakpoints={{
             640: {
               slidesPerPage: 1,

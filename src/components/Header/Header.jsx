@@ -3,8 +3,8 @@
 import { jsx, IconButton, NavLink } from 'theme-ui'
 import { Component } from 'react'
 import { Link } from 'gatsby'
-import { CloudLightning } from 'react-feather'
-import Nav from '../Nav/Nav'
+import Navigation from '../Nav/Nav'
+import pokooi from '../../../static/logos/svg/pokooi.svg'
 import './Header.css'
 // import Illustration from '../../../static/logos/digital-marketing.svg'
 
@@ -45,10 +45,10 @@ class Header extends Component {
               py: 2,
             }}
           >
-            <CloudLightning />
+            <img src={pokooi} alt="pokooi logo" />
           </Link>
           <div sx={{ mx: 'auto' }} />
-          <Nav />
+          <Navigation />
         </div>
       </header>
     )

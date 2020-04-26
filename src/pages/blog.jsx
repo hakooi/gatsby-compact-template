@@ -1,15 +1,18 @@
 /** @jsx jsx */
 
-import { jsx } from 'theme-ui'
-import React from 'react'
+import { jsx, Container } from 'theme-ui'
+import { Component } from 'react'
 import Helmet from 'react-helmet'
-import config from '../../data/SiteConfig'
+
+import { Link } from 'gatsby'
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
-// import favicon from '../../static/logos/favicon.ico'
-import './index.css'
+import SEO from '../components/SEO/SEO'
 
-export default class MainLayout extends React.Component {
+// import About from '../components/About/About'
+import config from '../../data/SiteConfig'
+
+class BlogPage extends Component {
   render() {
     const { children } = this.props
     return (
@@ -28,3 +31,5 @@ export default class MainLayout extends React.Component {
     )
   }
 }
+
+export default BlogPage
