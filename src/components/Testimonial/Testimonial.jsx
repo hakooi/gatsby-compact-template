@@ -17,7 +17,7 @@ class Testimonials extends Component {
     // const url = config.siteRss
 
     return (
-      <Container sx={{ width: '90%' }}>
+      <Container>
         <h3 className="text-4xl text-center bold ">Testimonials</h3>
         <Carousel
           slidesPerPage={2}

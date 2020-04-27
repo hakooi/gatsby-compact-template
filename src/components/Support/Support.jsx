@@ -14,7 +14,7 @@ class Support extends Component {
     // const url = config.siteRss
 
     return (
-      <section className="support container mx-auto" sx={{ width: '90%' }}>
+      <section className="support container mx-auto">
         <h3 className="text-4xl text-center bold ">Support</h3>
         <div className="support__content">
           <div className="support__content--left">
