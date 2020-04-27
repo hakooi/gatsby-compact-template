@@ -4,6 +4,7 @@ import { jsx, Container } from 'theme-ui'
 import { Component } from 'react'
 import { Link } from 'gatsby'
 // import UserLinks from '../UserLinks/UserLinks'
+import { Twitter, Facebook, Instagram } from 'react-feather'
 import './Footer.css'
 import pokooi from '../../../static/logos/svg/pokooi.svg'
 
@@ -153,6 +154,22 @@ class Footer extends Component {
                     FAQ
                   </Link>
                 </span>
+              </div>
+              <div className="flex flex-col">
+                <span className="font-bold text-gray-700 uppercase mb-6">
+                  Follow US
+                </span>
+                <div className="flex flex-row justify-between">
+                  <Link to="/" sx={{ color: 'inherit' }}>
+                    <Twitter />
+                  </Link>
+                  <Link to="/" sx={{ color: 'inherit' }}>
+                    <Facebook />
+                  </Link>
+                  <Link to="/" sx={{ color: 'inherit' }}>
+                    <Instagram />
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
