@@ -15,7 +15,7 @@ class Support extends Component {
 
     return (
       <section className="support container mx-auto">
-        <h3 className="text-4xl text-center bold ">Support</h3>
+        <h3 className="text-4xl text-center font-bold ">Support</h3>
         <div className="support__content">
           <div className="support__content--left">
             <h3 className="text-4xl">

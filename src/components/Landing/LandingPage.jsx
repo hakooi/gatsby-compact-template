@@ -2,6 +2,7 @@ import React from 'react'
 // import { Link } from 'gatsby'
 import Hero from '../Hero/Hero'
 import Testimonial from '../Testimonial/Testimonial'
+import Integration from '../Integration/Integration'
 import Support from '../Support/Support'
 
 class PostListing extends React.Component {
@@ -27,6 +28,7 @@ class PostListing extends React.Component {
       <div>
         <Hero />
         <Testimonial />
+        <Integration />
         <Support />
       </div>
     )

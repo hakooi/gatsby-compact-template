@@ -83,7 +83,7 @@ class Footer extends Component {
                     to="/"
                     sx={{ variant: 'links.primary' }}
                   >
-                    Plans
+                    Connect
                   </Link>
                 </span>
                 <span className="my-2">
@@ -92,7 +92,7 @@ class Footer extends Component {
                     to="/"
                     sx={{ variant: 'links.primary' }}
                   >
-                    About Us
+                    For Developer
                   </Link>
                 </span>
                 <span className="my-2">
@@ -101,7 +101,7 @@ class Footer extends Component {
                     to="/"
                     sx={{ variant: 'links.primary' }}
                   >
-                    Features
+                    Documentation
                   </Link>
                 </span>
                 <span className="my-2">
@@ -110,7 +110,7 @@ class Footer extends Component {
                     to="/about"
                     sx={{ variant: 'links.primary' }}
                   >
-                    FAQ
+                    Affiliate
                   </Link>
                 </span>
               </div>
@@ -124,7 +124,7 @@ class Footer extends Component {
                     to="/"
                     sx={{ variant: 'links.primary' }}
                   >
-                    Plans
+                    Help Center
                   </Link>
                 </span>
                 <span className="my-2">
@@ -133,7 +133,7 @@ class Footer extends Component {
                     to="/"
                     sx={{ variant: 'links.primary' }}
                   >
-                    About Us
+                    Support
                   </Link>
                 </span>
                 <span className="my-2">
@@ -142,7 +142,7 @@ class Footer extends Component {
                     to="/"
                     sx={{ variant: 'links.primary' }}
                   >
-                    Features
+                    Contact US
                   </Link>
                 </span>
                 <span className="my-2">

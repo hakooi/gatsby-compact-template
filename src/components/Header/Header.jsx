@@ -34,7 +34,7 @@ class Header extends Component {
             mx: 'auto',
             px: 4,
             display: 'flex',
-            alignItems: 'baseline',
+            alignItems: 'center',
           }}
         >
           <Link

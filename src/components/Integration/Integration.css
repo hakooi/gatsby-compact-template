@@ -1,0 +1,21 @@
+.integration {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    @apply bg-lightest p-24
+}
+
+.integration__content {
+    @apply flex flex-wrap
+}
+
+.integration__content-item {
+    @apply w-1/3 p-8
+}
+
+.integration__content-wrapper {
+    @apply bg-white rounded-l p-8 flex flex-col text-center
+}

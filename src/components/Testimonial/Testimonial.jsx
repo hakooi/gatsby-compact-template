@@ -15,7 +15,9 @@ class Testimonials extends Component {
 
     return (
       <section className="-mx-12">
-        <h3 className="text-4xl text-center bold ">Testimonials</h3>
+        <h3 className="text-4xl text-center font-bold ">
+          What are people saying
+        </h3>
         <Carousel
           slidesPerPage={3}
           autoPlay={2000}

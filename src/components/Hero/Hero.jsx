@@ -19,10 +19,10 @@ export default class Hero extends Component {
         />
         <div className="hero flex flex-wrap sm:flex-row justify-between items-center py-12 my-24 relative">
           <div className="sm:w-2/5 flex flex-col items-center sm:items-start text-center sm:text-left">
-            <h1 className="uppercase text-2xl text-blue-900 leading-none tracking-wide mb-8">
+            <h1 className="uppercase text-2xl font-bold leading-none tracking-wide mb-8">
               Pokooi
             </h1>
-            <h2 className="uppercase text-4xl text-orange-500 font-bold text-secondary leading-relaxed tracking-widest mb-6">
+            <h2 className="uppercase text-4xl font-bold text-primary leading-relaxed tracking-widest mb-6">
               A New way to feel your Music
             </h2>
             <p className="text-gray-600 leading-relaxed mb-12">
@@ -30,7 +30,7 @@ export default class Hero extends Component {
             </p>
             <a
               href="/"
-              className="bg-purple-300 hover:bg-purple-400 py-3 px-6 uppercase text-lg font-bold text-white rounded-full"
+              className="py-3 uppercase text-lg font-bold text-primary rounded-full"
             >
               Learn more
             </a>
@@ -44,7 +44,7 @@ export default class Hero extends Component {
               <img className="z-10" src={oval} alt="fluid gradient " />
             </div>
             <div className="sm:w-2/5 flex flex-col items-center sm:items-start text-center sm:text-left">
-              <h2 className="uppercase text-4xl text-orange-500 font-bold text-secondary leading-relaxed tracking-widest mb-6">
+              <h2 className="uppercase text-4xl  font-bold text-primary leading-relaxed tracking-widest mb-6">
                 Music stream on steroid
               </h2>
               <p className="text-gray-600 leading-relaxed mb-12">
@@ -53,7 +53,7 @@ export default class Hero extends Component {
               </p>
               <a
                 href="/"
-                className="bg-purple-300 hover:bg-purple-400 py-3 px-6 uppercase text-lg font-bold text-white rounded-full"
+                className="py-3 uppercase text-lg font-bold text-primary rounded-full"
               >
                 Learn more
               </a>
