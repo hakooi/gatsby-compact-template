@@ -35,7 +35,7 @@ class Support extends Component {
             </p>
           </div>
         </div>
-        <hr />
+        <hr className="border-4 border-primary" />
         <div className="support__content">
           <div className="content-item">
             <HelpCircle

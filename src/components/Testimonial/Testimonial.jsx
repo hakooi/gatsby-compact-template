@@ -6,9 +6,6 @@ import { Component } from 'react'
 import Carousel from '@brainhubeu/react-carousel'
 import '@brainhubeu/react-carousel/lib/style.css'
 // import { Link } from 'gatsby'
-import illustration from '../../../static/logos/illustration.svg'
-import fluid from '../../../static/logos/svg/fluid.svg'
-import oval from '../../../static/logos/svg/Oval-illustration.svg'
 // import './testimonial.css'
 
 class Testimonials extends Component {
@@ -17,10 +14,10 @@ class Testimonials extends Component {
     // const url = config.siteRss
 
     return (
-      <Container>
+      <section className="-mx-12">
         <h3 className="text-4xl text-center bold ">Testimonials</h3>
         <Carousel
-          slidesPerPage={2}
+          slidesPerPage={3}
           autoPlay={2000}
           animationSpeed={1000}
           infinite
@@ -93,7 +90,7 @@ class Testimonials extends Component {
             </div>
           </div>
         </Carousel>
-      </Container>
+      </section>
     )
   }
 }
