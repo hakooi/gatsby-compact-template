@@ -35,9 +35,63 @@ class Testimonials extends Component {
             },
           }}
         >
-          <img src={illustration} alt="illustration" />
-          <img src={fluid} alt="fluid" />
-          <img src={oval} alt="oval" />
+          <div className="testimonial__content p-12">
+            <div className="testimonial__content-item">
+              <h3 className="text-2xl font-bold">
+                Get to know Pokooi, and increase your next level streaming
+                experience
+              </h3>
+              <p className="text-xl mt-6">
+                <span>
+                  <a href="#">hello@pokooi.com</a>
+                </span>
+              </p>
+            </div>
+            <div className="testimonial__content-item">
+              <p className="text-xl">
+                639 Heavens bridge, La meridia +62-202-555-0105 -
+                +62-202-555-0234 Working hours: 8AM - 5PM
+              </p>
+            </div>
+          </div>
+          <div className="testimonial__content p-12">
+            <div className="testimonial__content-item">
+              <h3 className="text-2xl font-bold">
+                Get to know Pokooi, and increase your next level streaming
+                experience
+              </h3>
+              <p className="text-xl mt-6">
+                <span>
+                  <a href="#">hello@pokooi.com</a>
+                </span>
+              </p>
+            </div>
+            <div className="testimonial__content-item">
+              <p className="text-xl">
+                639 Heavens bridge, La meridia +62-202-555-0105 -
+                +62-202-555-0234 Working hours: 8AM - 5PM
+              </p>
+            </div>
+          </div>
+          <div className="testimonial__content p-12">
+            <div className="testimonial__content-item">
+              <h3 className="text-2xl font-bold">
+                Get to know Pokooi, and increase your next level streaming
+                experience
+              </h3>
+              <p className="text-xl mt-6">
+                <span>
+                  <a href="#">hello@pokooi.com</a>
+                </span>
+              </p>
+            </div>
+            <div className="testimonial__content-item">
+              <p className="text-xl">
+                639 Heavens bridge, La meridia +62-202-555-0105 -
+                +62-202-555-0234 Working hours: 8AM - 5PM
+              </p>
+            </div>
+          </div>
         </Carousel>
       </Container>
     )

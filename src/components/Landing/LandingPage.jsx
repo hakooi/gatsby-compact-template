@@ -1,10 +1,11 @@
 import React from 'react'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 import Hero from '../Hero/Hero'
-import Testimonial from '../Testimonials/testimonial'
+import Testimonial from '../Testimonials/Testimonial'
+import Support from '../Support/Support'
 
 class PostListing extends React.Component {
-  getPostList() {
+  /* getPostList() {
     const postList = []
     this.props.postEdges.forEach((postEdge) => {
       postList.push({
@@ -18,25 +19,27 @@ class PostListing extends React.Component {
       })
     })
     return postList
-  }
+  } */
 
   render() {
-    const postList = this.getPostList()
+    // const postList = this.getPostList()
     return (
       <div>
         <Hero />
         <Testimonial />
-        {
-          /* Your post list here. */
+        <Support />
+      </div>
+    )
+  }
+}
+
+/* {
+          
           postList.map((post) => (
             <Link to={post.path} key={post.title}>
               <h1>{post.title}</h1>
             </Link>
           ))
         }
-      </div>
-    )
-  }
-}
-
+         */
 export default PostListing

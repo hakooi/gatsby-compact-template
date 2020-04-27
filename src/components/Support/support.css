@@ -1,0 +1,20 @@
+.support {
+    @apply flex flex-col my-24
+}
+
+.support__content {
+    @apply flex flex-row my-12 -mx-4
+}
+
+.support__content--left {
+    @apply flex-wrap flex-1 px-4 font-bold leading-relaxed
+}
+
+.support__content--right {
+    @apply self-center flex-1 px-4
+}
+
+
+.content-item {
+    @apply flex-1 px-4
+}

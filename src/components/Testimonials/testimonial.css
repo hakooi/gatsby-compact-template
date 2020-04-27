@@ -32,3 +32,17 @@
     color: #2b6cb0;
     /*Set to match the Tailwind colour you want the active one to be */
 }
+
+.testimonial__content {
+    @apply flex flex-col my-12 -mx-4 p-4
+}
+
+.testimonial__content-item {
+    @apply p-16
+}
+
+
+
+.content-item {
+    @apply flex-1 px-4 p-9
+}
