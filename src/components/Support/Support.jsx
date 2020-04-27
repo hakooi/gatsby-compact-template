@@ -8,7 +8,7 @@ import '@brainhubeu/react-carousel/lib/style.css'
 import { HelpCircle, PhoneCall, Mail } from 'react-feather'
 import './support.css'
 
-class Testimonials extends Component {
+class Support extends Component {
   render() {
     // const { config } = this.props
     // const url = config.siteRss
@@ -74,4 +74,4 @@ class Testimonials extends Component {
   }
 }
 
-export default Testimonials
+export default Support
