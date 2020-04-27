@@ -27,8 +27,8 @@ class Integration extends Component {
           You can connect your account with this bleeding edge services
         </p>
         <div className="integration__content">
-          <div className="integration__content-item">
-            <div className="integration__content-wrapper ">
+          <div className="integration__content-item ">
+            <div className="integration__content-wrapper shadow-xl">
               <img src={Snapchat} alt="snapchat" />
               Snapchat
             </div>
@@ -59,7 +59,7 @@ class Integration extends Component {
           </div>
           <div className="integration__content-item">
             <div className="integration__content-wrapper ">
-              <img src={Twitter} alt="snapchat" />
+              <img src={Twitter} alt="Twitter" />
               Twitter
             </div>
           </div>
