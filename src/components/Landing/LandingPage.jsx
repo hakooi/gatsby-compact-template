@@ -1,7 +1,7 @@
 import React from 'react'
 // import { Link } from 'gatsby'
 import Hero from '../Hero/Hero'
-import Testimonial from '../Testimonials/Testimonial'
+import Testimonial from '../Testimonial/Testimonial'
 import Support from '../Support/Support'
 
 class PostListing extends React.Component {
