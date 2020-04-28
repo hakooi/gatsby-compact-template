@@ -19,32 +19,23 @@ class Features extends Component {
         <h3 className="text-4xl text-center font-bold my-6 ">
           Hundred of Features
         </h3>
-        <Tabs className="features__tabs">
-          <TabList className="features__tablist">
-            <Tab
-              className="features__tab"
-              selectedClassName="features__tab--selected"
-            >
+        <Tabs>
+          <TabList>
+            <Tab>
               <h4 className="text-xl font-bold">Bot Integration</h4>
               <p className="features__content leading-normal text-sm">
                 Our bot integration service can give your streaming activities
                 blissful
               </p>
             </Tab>
-            <Tab
-              className="features__tab"
-              selectedClassName="features__tab--selected"
-            >
+            <Tab>
               <h4 className="text-xl font-bold">Motion Sensing</h4>
               <p className="features__content leading-normal text-sm">
                 Motion sensing ability can make you sense higher consciousness
                 on feeling your stream
               </p>
             </Tab>
-            <Tab
-              className="features__tab"
-              selectedClassName="features__tab--selected"
-            >
+            <Tab>
               <h4 className="text-xl font-bold">AR Visualization</h4>
               <p className="features__content leading-normal text-sm">
                 With our AR visualization your reality become more enhanced
@@ -53,7 +44,7 @@ class Features extends Component {
             </Tab>
           </TabList>
           <TabPanel>
-            <div className="features-panel__left w-1/2">
+            <div className="features-panel__left w-1/2 p-8">
               <h3 className="text-xl font-bold">Plentiful Bot services</h3>
               <p className="features__content leading-relaxed text-xl">
                 With Vast choice of our bot integration services whether just to
@@ -66,7 +57,7 @@ class Features extends Component {
             </div>
           </TabPanel>
           <TabPanel>
-            <div className="features-panel__left w-1/2">
+            <div className="features-panel__left w-1/2 p-8">
               <h3 className="text-xl font-bold">Goes beyond imagination</h3>
               <p className="features__content leading-relaxed text-xl">
                 With Vast choice of our bot integration services whether just to
@@ -79,7 +70,7 @@ class Features extends Component {
             </div>
           </TabPanel>
           <TabPanel>
-            <div className="features-panel__left w-1/2">
+            <div className="features-panel__left w-1/2 p-8">
               <h3 className="text-xl font-bold">AR implementation</h3>
               <p className="features__content leading-relaxed text-xl">
                 With Vast choice of our bot integration services whether just to

@@ -46,7 +46,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const categoryPage = path.resolve('src/templates/category.jsx')
   const listingPage = path.resolve('./src/templates/listing.jsx')
   const landingPage = path.resolve('./src/templates/landing.jsx')
-  const blogPage = path.resolve('./src/templates/blog.jsx')
+  // const blogPage = path.resolve('./src/templates/blog.jsx')
 
   // Get a full list of markdown posts
   const markdownQueryResult = await graphql(`
@@ -110,10 +110,7 @@ exports.createPages = async ({ graphql, actions }) => {
     })
   } else {
     //  Create blog pages
-    createPage({
-      path: `/blog/`,
-      component: blogPage,
-    })
+
     // Load the landing page instead
     createPage({
       path: `/`,
