@@ -5,8 +5,9 @@ import { jsx, Container } from 'theme-ui'
 import { Component } from 'react'
 import Carousel from '@brainhubeu/react-carousel'
 import '@brainhubeu/react-carousel/lib/style.css'
+import User1 from '../../../static/asset/rita.webp'
 // import { Link } from 'gatsby'
-// import './testimonial.css'
+import './Testimonial.css'
 
 class Testimonials extends Component {
   render() {
@@ -14,14 +15,16 @@ class Testimonials extends Component {
     // const url = config.siteRss
 
     return (
-      <section className="-mx-12">
-        <h3 className="text-4xl text-center font-bold ">
+      <section className="-mx-12 my-24">
+        <h3 className="text-4xl text-center font-bold my-12">
           What are people saying
         </h3>
         <Carousel
-          slidesPerPage={3}
+          slidesPerPage={2}
           autoPlay={2000}
           animationSpeed={1000}
+          dots
+          centered
           infinite
           breakpoints={{
             640: {
@@ -34,60 +37,39 @@ class Testimonials extends Component {
             },
           }}
         >
-          <div className="testimonial__content p-12">
-            <div className="testimonial__content-item">
-              <h3 className="text-2xl font-bold">
-                Get to know Pokooi, and increase your next level streaming
-                experience
-              </h3>
-              <p className="text-xl mt-6">
-                <span>
-                  <a href="#">hello@pokooi.com</a>
-                </span>
-              </p>
-            </div>
-            <div className="testimonial__content-item">
-              <p className="text-xl">
-                639 Heavens bridge, La meridia +62-202-555-0105 -
-                +62-202-555-0234 Working hours: 8AM - 5PM
+          <div className="testimonial__content">
+            <div className="testimonial__content-item ">
+              <img src={User1} alt="Rita" />
+              <h3 className="text-2xl font-bold">Rita Hooh</h3>
+              <span className="text-sm">Violist, sax xarepmoo</span>
+              <p className="text-xl mt-6 leading-snug">
+                With Pokooi my music streaming accessibility enhanced to the
+                next level and undergo higher level consciousness, great job for
+                pokooi team
               </p>
             </div>
           </div>
-          <div className="testimonial__content p-12">
-            <div className="testimonial__content-item">
-              <h3 className="text-2xl font-bold">
-                Get to know Pokooi, and increase your next level streaming
-                experience
-              </h3>
-              <p className="text-xl mt-6">
-                <span>
-                  <a href="#">hello@pokooi.com</a>
-                </span>
-              </p>
-            </div>
-            <div className="testimonial__content-item">
-              <p className="text-xl">
-                639 Heavens bridge, La meridia +62-202-555-0105 -
-                +62-202-555-0234 Working hours: 8AM - 5PM
+          <div className="testimonial__content">
+            <div className="testimonial__content-item ">
+              <img src={User1} alt="Rita" />
+              <h3 className="text-2xl font-bold">Rita Hooh</h3>
+              <span className="text-sm">Violist, sax xarepmoo</span>
+              <p className="text-xl mt-6 leading-snug">
+                With Pokooi my music streaming accessibility enhanced to the
+                next level and undergo higher level consciousness, great job for
+                pokooi team
               </p>
             </div>
           </div>
-          <div className="testimonial__content p-12">
-            <div className="testimonial__content-item">
-              <h3 className="text-2xl font-bold">
-                Get to know Pokooi, and increase your next level streaming
-                experience
-              </h3>
-              <p className="text-xl mt-6">
-                <span>
-                  <a href="#">hello@pokooi.com</a>
-                </span>
-              </p>
-            </div>
-            <div className="testimonial__content-item">
-              <p className="text-xl">
-                639 Heavens bridge, La meridia +62-202-555-0105 -
-                +62-202-555-0234 Working hours: 8AM - 5PM
+          <div className="testimonial__content">
+            <div className="testimonial__content-item ">
+              <img src={User1} alt="Rita" />
+              <h3 className="text-2xl font-bold">Rita Hooh</h3>
+              <span className="text-sm">Violist, sax xarepmoo</span>
+              <p className="text-xl mt-6 leading-snug">
+                With Pokooi my music streaming accessibility enhanced to the
+                next level and undergo higher level consciousness, great job for
+                pokooi team
               </p>
             </div>
           </div>
