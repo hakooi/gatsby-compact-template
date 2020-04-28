@@ -6,6 +6,7 @@ import { Component } from 'react'
 // import { Link } from 'gatsby'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import 'react-tabs/style/react-tabs.css'
+import Illustration from '../../../static/logos/svg/Music-Tone.svg'
 import './Features.css'
 
 class Features extends Component {
@@ -14,21 +15,81 @@ class Features extends Component {
     // const url = config.siteRss
 
     return (
-      <section className="features container mx-auto">
+      <section className="features container mx-auto mt-12 mb-24">
         <h3 className="text-4xl text-center font-bold my-6 ">
           Hundred of Features
         </h3>
-        <Tabs>
-          <TabList>
-            <Tab>Title 1</Tab>
-            <Tab>Title 2</Tab>
+        <Tabs className="features__tabs">
+          <TabList className="features__tablist">
+            <Tab
+              className="features__tab"
+              selectedClassName="features__tab--selected"
+            >
+              <h4 className="text-xl font-bold">Bot Integration</h4>
+              <p className="features__content leading-normal text-sm">
+                Our bot integration service can give your streaming activities
+                blissful
+              </p>
+            </Tab>
+            <Tab
+              className="features__tab"
+              selectedClassName="features__tab--selected"
+            >
+              <h4 className="text-xl font-bold">Motion Sensing</h4>
+              <p className="features__content leading-normal text-sm">
+                Motion sensing ability can make you sense higher consciousness
+                on feeling your stream
+              </p>
+            </Tab>
+            <Tab
+              className="features__tab"
+              selectedClassName="features__tab--selected"
+            >
+              <h4 className="text-xl font-bold">AR Visualization</h4>
+              <p className="features__content leading-normal text-sm">
+                With our AR visualization your reality become more enhanced
+                while you play your music
+              </p>
+            </Tab>
           </TabList>
-
           <TabPanel>
-            <h2>Any content 1</h2>
+            <div className="features-panel__left w-1/2">
+              <h3 className="text-xl font-bold">Plentiful Bot services</h3>
+              <p className="features__content leading-relaxed text-xl">
+                With Vast choice of our bot integration services whether just to
+                give extended feature for your stream or just adding laughful
+                bot into your stream, we can provide it.
+              </p>
+            </div>
+            <div className="features-panel__right">
+              <img src={Illustration} alt="music tone" />
+            </div>
           </TabPanel>
           <TabPanel>
-            <h2>Any content 2</h2>
+            <div className="features-panel__left w-1/2">
+              <h3 className="text-xl font-bold">Goes beyond imagination</h3>
+              <p className="features__content leading-relaxed text-xl">
+                With Vast choice of our bot integration services whether just to
+                give extended feature for your stream or just adding laughful
+                bot into your stream, we can provide it.
+              </p>
+            </div>
+            <div className="features-panel__right">
+              <img src={Illustration} alt="music tone" />
+            </div>
+          </TabPanel>
+          <TabPanel>
+            <div className="features-panel__left w-1/2">
+              <h3 className="text-xl font-bold">AR implementation</h3>
+              <p className="features__content leading-relaxed text-xl">
+                With Vast choice of our bot integration services whether just to
+                give extended feature for your stream or just adding laughful
+                bot into your stream, we can provide it.
+              </p>
+            </div>
+            <div className="features-panel__right">
+              <img src={Illustration} alt="music tone" />
+            </div>
           </TabPanel>
         </Tabs>
       </section>

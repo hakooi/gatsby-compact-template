@@ -1,0 +1,18 @@
+.features {}
+
+.features__tablist {
+    @apply my-12 flex justify-between
+}
+
+.features__tab {
+    width: 30%;
+    @apply bg-lightest justify-between rounded shadow-md p-8 cursor-pointer
+}
+
+.features__tab--selected {
+    @apply bg-primary text-white
+}
+
+.react-tabs__tab-panel--selected {
+    @apply rounded shadow-md p-8 bg-lightest flex flex-row justify-between items-center
+}
