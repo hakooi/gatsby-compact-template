@@ -25,14 +25,11 @@ class Header extends Component {
         className="header"
         sx={{
           variant: 'styles.header',
-          boxShadow: 'lg',
         }}
       >
         <div
           sx={{
-            width: ['80%', '90%'],
             mx: 'auto',
-            px: 4,
             display: 'flex',
             alignItems: 'center',
           }}

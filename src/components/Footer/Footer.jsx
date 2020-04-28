@@ -26,13 +26,13 @@ class Footer extends Component {
           py: 24,
         }}
       >
-        <Container sx={{ width: '90%' }}>
-          <div className="sm:flex sm:mt-8">
-            <div className="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
-              <div className="flex flex-col">
+        <Container>
+          <div className=" sm:flex sm:mt-8">
+            <div className="mt-8 sm:mt-0 sm:w-full flex flex-col md:flex-row justify-between">
+              <div className="footer-item">
                 <img src={pokooi} alt="pokooi" />
               </div>
-              <div className="flex flex-col">
+              <div className="footer-item">
                 <span className="font-bold text-gray-700 uppercase mb-6">
                   General
                 </span>
@@ -73,7 +73,7 @@ class Footer extends Component {
                   </Link>
                 </span>
               </div>
-              <div className="flex flex-col">
+              <div className="footer-item">
                 <span className="font-bold text-gray-700 uppercase mb-6">
                   Integrate
                 </span>
@@ -114,7 +114,7 @@ class Footer extends Component {
                   </Link>
                 </span>
               </div>
-              <div className="flex flex-col">
+              <div className="footer-item">
                 <span className="font-bold text-gray-700 uppercase mb-6">
                   Support
                 </span>
@@ -155,11 +155,11 @@ class Footer extends Component {
                   </Link>
                 </span>
               </div>
-              <div className="flex flex-col">
+              <div className="footer-item">
                 <span className="font-bold text-gray-700 uppercase mb-6">
                   Follow US
                 </span>
-                <div className="flex flex-row justify-between">
+                <div className="flex flex-row justify-evenly md:justify-between">
                   <Link to="/" sx={{ color: 'inherit' }}>
                     <Twitter />
                   </Link>

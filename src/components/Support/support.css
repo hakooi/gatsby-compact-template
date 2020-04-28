@@ -18,3 +18,13 @@
 .content-item {
     @apply flex-1 px-4
 }
+
+@media (max-width:900px) {
+    .support__content {
+        @apply flex-col
+    }
+
+    .content-item {
+        @apply my-3
+    }
+}

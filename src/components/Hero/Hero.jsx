@@ -17,8 +17,8 @@ export default class Hero extends Component {
           src={fluid}
           alt="fluid gradient"
         />
-        <div className="hero flex flex-wrap sm:flex-row justify-between items-center py-12 my-24 relative">
-          <div className="sm:w-2/5 flex flex-col items-center sm:items-start text-center sm:text-left">
+        <div className="hero flex flex-wrap sm:flex-row justify-between py-12 my-24 relative">
+          <div className="sm:w-2/5 flex flex-col sm:items-start sm:text-left">
             <h1 className="uppercase text-2xl font-bold leading-none tracking-wide mb-8">
               Pokooi
             </h1>
@@ -39,11 +39,11 @@ export default class Hero extends Component {
           <div className="mb-16 sm:mb-0 mt-8 sm:mt-0 sm:w-3/5 sm:pl-12 ">
             {/* <Img src={`/static/logos/svg/fluid.svg`} alt="fluid image" /> */}
           </div>
-          <div className="flex flex-row mt-56">
+          <div className="flex flex-col md:flex-row md:mt-56">
             <div className="mb-16 sm:mb-0 mt-8 sm:mt-0 sm:w-1/2 p-6 sm:pl-12">
               <img className="z-10" src={oval} alt="fluid gradient " />
             </div>
-            <div className="sm:w-2/5 flex flex-col items-center sm:items-start text-center sm:text-left">
+            <div className="sm:w-2/5 flex flex-col sm:items-start sm:text-left">
               <h2 className="uppercase text-4xl  font-bold text-primary leading-relaxed tracking-widest mb-6">
                 Music stream on steroid
               </h2>

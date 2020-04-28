@@ -4,7 +4,7 @@
     top: 0;
     z-index: 2;
     border-bottom: 1px solid var(--lightGrey);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.025);
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.025); */
 }
 
 .Nav--Container {
@@ -57,7 +57,7 @@
 }
 
 .Nav--GroupParent {
-    padding-right: 3rem;
+    /* padding-right: 3rem; */
 }
 
 .Nav--GroupParent::after {
@@ -149,6 +149,7 @@
     .Nav .NavLink {
         font-size: 2.5rem;
         font-weight: 300;
+        text-align: center;
     }
 
     .Nav .NavLink:nth-of-type(2) {

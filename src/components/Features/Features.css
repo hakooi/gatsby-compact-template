@@ -3,7 +3,7 @@
 
 
 .react-tabs__tab-list {
-    @apply my-12 flex justify-between border-0
+    @apply my-12 flex flex-row justify-between border-0
 }
 
 .react-tabs__tab {
@@ -18,4 +18,15 @@
 
 .react-tabs__tab-panel--selected {
     @apply rounded shadow-md bg-lightest flex flex-row justify-between items-center
+}
+
+@media (max-width: 900px) {
+    .react-tabs__tab {
+        width: 100%;
+        @apply mb-3 p-3
+    }
+
+    .react-tabs__tab-list {
+        @apply flex-col
+    }
 }

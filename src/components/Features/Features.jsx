@@ -15,7 +15,7 @@ class Features extends Component {
     // const url = config.siteRss
 
     return (
-      <section className="features container mx-auto mt-12 mb-24">
+      <section className="features container mx-auto md:mt-12 mb-24">
         <h3 className="text-4xl text-center font-bold my-6 ">
           Hundred of Features
         </h3>
@@ -44,7 +44,7 @@ class Features extends Component {
             </Tab>
           </TabList>
           <TabPanel>
-            <div className="features-panel__left w-1/2 p-8">
+            <div className="features-panel__left sm:w-full md:w-1/2 p-3 md:p-8">
               <h3 className="text-xl font-bold">Plentiful Bot services</h3>
               <p className="features__content leading-relaxed text-xl">
                 With Vast choice of our bot integration services whether just to
@@ -57,7 +57,7 @@ class Features extends Component {
             </div>
           </TabPanel>
           <TabPanel>
-            <div className="features-panel__left w-1/2 p-8">
+            <div className="features-panel__left sm:w-full md:w-1/2 p-3 md:p-8">
               <h3 className="text-xl font-bold">Goes beyond imagination</h3>
               <p className="features__content leading-relaxed text-xl">
                 With Vast choice of our bot integration services whether just to
@@ -70,7 +70,7 @@ class Features extends Component {
             </div>
           </TabPanel>
           <TabPanel>
-            <div className="features-panel__left w-1/2 p-8">
+            <div className="features-panel__left sm:w-full md:w-1/2 p-3 md:p-8">
               <h3 className="text-xl font-bold">AR implementation</h3>
               <p className="features__content leading-relaxed text-xl">
                 With Vast choice of our bot integration services whether just to
