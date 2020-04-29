@@ -7,10 +7,10 @@ const config = {
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: 'A GatsbyJS stater with Advanced design in mind.', // Website description used for RSS feeds/meta description tag.
   siteRss: '/rss.xml', // Path to the RSS file.
-  siteRssTitle: 'Gatsby Advanced Starter RSS feed', // Title of the RSS feed
+  siteRssTitle: 'Gatsby Compact RSS feed', // Title of the RSS feed
   siteFBAppID: '1825356251115265', // FB Application ID for using app insights
   googleAnalyticsID: 'UA-161391939-2', // GA tracking ID.
-  disqusShortname: 'https-vagr9k-github-io-gatsby-advanced-starter', // Disqus shortname.
+  disqusShortname: 'hakooi-compact', // Disqus shortname.
   dateFromFormat: 'YYYY-MM-DD', // Date format used in the frontmatter.
   dateFormat: 'DD/MM/YYYY', // Date format for display.
   postsPerPage: 0, // Amount of posts displayed per listing page.

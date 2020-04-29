@@ -1,3 +1,7 @@
 .blog-list {
     @apply text-3xl leading-loose
 }
+
+.blog-list h1 {
+    @apply transition-colors
+}

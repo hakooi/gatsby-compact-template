@@ -26,8 +26,8 @@ class BlogListing extends React.Component {
         {
           /* Your post list here. */
           postList.map((post) => (
-            <Link className="blog-list" to={post.path} key={post.title}>
-              <h1>{post.title}</h1>
+            <Link className="blog-list " to={post.path} key={post.title}>
+              <h1 className="hover:text-primary">{post.title}</h1>
             </Link>
           ))
         }
