@@ -1,3 +1,9 @@
 .header {
     padding: 15px;
 }
+
+@media (min-width: 900px) {
+    .header {
+        @apply px-24
+    }
+}

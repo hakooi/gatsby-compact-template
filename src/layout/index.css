@@ -84,3 +84,9 @@ a {
   padding: 15px;
   @apply text-xl leading-loose
 }
+
+@media (min-width: 900px) {
+  .layout-container {
+    @apply p-24
+  }
+}

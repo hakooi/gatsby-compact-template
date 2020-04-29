@@ -34,9 +34,7 @@ export default class PostTemplate extends React.Component {
           <SEO postPath={slug} postNode={postNode} postSEO />
           <div
             sx={{
-              width: '90%',
               mx: 'auto',
-              px: 3,
             }}
           >
             {/* <Header config={config} /> */}
