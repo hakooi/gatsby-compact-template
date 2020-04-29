@@ -48,7 +48,8 @@
 .NavLink.active,
 .NavLink:focus {
     color: var(--primary);
-    border-bottom-color: currentColor;
+    /* border-bottom-color: currentColor; */
+    @apply border-b-4 border-primary
 }
 
 .Nav--Group {

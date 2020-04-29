@@ -1,7 +1,7 @@
 import { tailwind } from '@theme-ui/presets'
 
 export default {
-  useCustomProperties: false,
+  // useCustomProperties: false,
   ...tailwind,
   styles: {
     ...tailwind.styles,
