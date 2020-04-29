@@ -10,6 +10,7 @@ export default {
     ...tailwind.colors,
     primary: '#12b380',
     secondary: '#008799',
+    accent: '#3d3d3d',
     black: '#3d3d3d',
     gray: '#989898',
     'light-gray': '#f6f6f6',
