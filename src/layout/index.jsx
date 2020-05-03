@@ -7,15 +7,22 @@ import config from '../../data/SiteConfig'
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
 // import favicon from '../../static/logos/favicon.ico'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import './index.css'
 
 export default class MainLayout extends React.Component {
+  componentDidMount() {
+    AOS.init({
+      duration: 2000,
+    })
+  }
   render() {
     const { children } = this.props
     return (
       <div>
         <Header config={config} />
-        <div className="layout-container">
+        <div data-aos="fade-up" className="layout-container">
           <Helmet>
             {/* <link rel="icon" href={favicon} /> */}
             <meta name="description" content={config.siteDescription} />
