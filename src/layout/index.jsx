@@ -3,11 +3,12 @@
 import { jsx } from 'theme-ui'
 import React from 'react'
 import Helmet from 'react-helmet'
+import AOS from 'aos'
 import config from '../../data/SiteConfig'
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
 // import favicon from '../../static/logos/favicon.ico'
-import AOS from 'aos'
+
 import 'aos/dist/aos.css'
 import './index.css'
 
