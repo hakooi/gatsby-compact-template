@@ -6,7 +6,7 @@ import { Component } from 'react'
 import './Hero.css'
 // import illustration from '../../../static/logos/illustration.svg'
 import fluid from '../../../static/logos/svg/fluid.svg'
-import oval from '../../../static/logos/svg/Oval-illustration.svg'
+import jockey from '../../../static/logos/svg/Pokooi-jockey.svg'
 
 export default class Hero extends Component {
   render() {
@@ -41,7 +41,7 @@ export default class Hero extends Component {
           </div>
           <div className="flex flex-col md:flex-row md:mt-56">
             <div className="mb-16 sm:mb-0 mt-8 sm:mt-0 sm:w-1/2 p-6 sm:pl-12">
-              <img className="z-10" src={oval} alt="fluid gradient " />
+              <img className="z-10" src={jockey} alt="fluid gradient " />
             </div>
             <div className="sm:w-2/5 flex flex-col sm:items-start sm:text-left">
               <h2 className="uppercase text-4xl  font-bold text-primary leading-relaxed tracking-widest mb-6">
