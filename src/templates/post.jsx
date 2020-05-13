@@ -42,6 +42,7 @@ export default class PostTemplate extends React.Component {
             </Helmet>
             <SEO postPath={slug} postNode={postNode} postSEO />
             <div
+              data-aos="fade-up"
               sx={{
                 mx: 'auto',
               }}
